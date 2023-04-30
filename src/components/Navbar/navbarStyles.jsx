@@ -3,8 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 0px 20px 0px 20px;
+  padding: 0 20px 0 20px;
   justify-content: space-between;
+  position: fixed;
+  width: calc(100% - 40px);
+  background-color: white;
+  z-index: 999;
 `;
 
 export const Logo = styled.h3`
