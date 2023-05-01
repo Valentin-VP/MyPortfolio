@@ -49,22 +49,22 @@ const Home = () => {
           <p>Main Toolset</p>
           <ul>
             <li>
-              <SiJavascript color="#f0db4f" size="2.5rem"/>
+              <SiJavascript color="#f0db4f" size="2rem"/>
             </li>
             <li>
-              <SiSpring color="#6db33f" size="2.5rem"/>
+              <SiSpring color="#6db33f" size="2rem"/>
             </li>
             <li>
-              <SiReact color="#61dbfb" size="2.5rem"/>
+              <SiReact color="#61dbfb" size="2rem"/>
             </li>
             <li>
-              <SiAngular color="#dd1b16" size="2.5rem"/>
+              <SiAngular color="#dd1b16" size="2rem"/>
             </li>
             <li>
-              <SiHtml5 color="#e34f26" size="2.5rem"/>
+              <SiHtml5 color="#e34f26" size="2rem"/>
             </li>
             <li>
-              <SiCss3 color="#264de4" size="2.5rem"/>
+              <SiCss3 color="#264de4" size="2rem"/>
             </li>
           </ul>
         </Techs>

@@ -35,16 +35,18 @@ export const AboutText = styled.div`
         font-size: 1.2rem;
         font-weight: 700;
         text-transform: uppercase;
+        margin-bottom: 5px;
     }
 
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        margin: 0;
     }
 
     p{
         color: #767676;
         font-family: Mulish, sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.21rem;
         font-weight: 500;
         line-height: 1.4;
     }

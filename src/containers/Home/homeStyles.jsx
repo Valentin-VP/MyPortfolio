@@ -53,19 +53,16 @@ export const Socials = styled.div`
   a {
     margin-right: 10px;
   }
-  FaLinkedin {
-    width: 5rem;
-  }
 `;
 
 export const MainPic = styled.div`
   @keyframes Morph {
-    0% {
+    0%, 100% {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 
     25% {
-      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+      border-radius: 40% 70% 70% 40% / 50% 60% 45% 60%;
     }
 
     50% {
@@ -73,10 +70,6 @@ export const MainPic = styled.div`
     }
 
     75% {
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-
-    100% {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
   }

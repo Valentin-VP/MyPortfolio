@@ -8,7 +8,7 @@ const About = () => {
         <AboutImage />
         <AboutText>
           <h4>About me</h4>
-          <h3>A dedicated Full Stack Developer based in Uruguay 📍</h3>
+          <h3>A commited Full Stack Developer from Uruguay 📍</h3>
           <p>
             With my expertise in information systems development, I possess
             strong technical skills and a robust knowledge base in languages

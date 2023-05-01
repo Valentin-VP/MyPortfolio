@@ -4,6 +4,7 @@ import Home from "./containers/Home/Home";
 import About from "./containers/About/About";
 import Projects from "./containers/Projects/Projects";
 import Contact from "./containers/Contact/Contact";
+import Footer from "./containers/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </Wrapper>
   );
 }
