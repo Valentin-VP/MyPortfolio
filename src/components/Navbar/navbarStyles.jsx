@@ -9,6 +9,10 @@ export const Container = styled.div`
   width: calc(100% - 40px);
   background-color: white;
   z-index: 999;
+
+  h3{
+    font-weight: 700;
+  }
 `;
 
 export const Logo = styled.h3`

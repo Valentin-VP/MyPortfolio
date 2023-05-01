@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import valentin from "../../assets/valentin.jpg";
+import valentin from "../../assets/CVF_1986.jpg";
 
 export const Container = styled.div`
-  height: calc(100vh - 67.531px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@ export const MainPic = styled.div`
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   width: 350px;
   height: 350px;
-  /* transition: all 1s ease-in-out; */
+  transform: scale(1.1);
 `;
 
 export const Techs = styled.div`
