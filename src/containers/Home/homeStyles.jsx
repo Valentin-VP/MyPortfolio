@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import valentin from "../../assets/CVF_1986.jpg";
 
 export const Container = styled.div`
   height: 100vh;
@@ -57,7 +56,8 @@ export const Socials = styled.div`
 
 export const MainPic = styled.div`
   @keyframes Morph {
-    0%, 100% {
+    0%,
+    100% {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 
@@ -75,7 +75,7 @@ export const MainPic = styled.div`
   }
 
   animation: Morph 10s ease-in-out infinite;
-  background-image: url(${valentin});
+  background-image: url("https://lh3.googleusercontent.com/fife/APg5EOa570ldvcqjRICYj-WAMRDJJhHjRZzb14o-od-wzdp0nq04EFCZDwU9gwK69C7pZxCqUtu09DPTBHIAIstPUywVXOH0KNZbo1bwv2SvOAAvx7VxxLijp_WTjeTDPuLI7SOV1DO2BHlrfvn4whsD1BFSzYwpjHaTopcDQeXsO7pqcfEX0ktj8zqHBHqfVkdP86R_y_FayL-HNgQUsGMwIB6eDluni2jZlHQy0SFUlalgT7Umz_NuTwInT85_KvdhrPPOlasgL06dAVCniXapo8Bl1QtaR5i8myT0ujbgUN3wC_BKru4Yv5kQWWWzMaOLZ6rW_86D-D7kUL32X6lJTBFSKSdOBJ4g_roWVEw09t4lDVb4GsbPfdoOIzZ__ZRkifRmUfccxPZYcfBnBgNMCjKO__Ni9g4tgGfXq_yAD7oqc89ulaDEUPve12o-kQLlO29l9kUP1ejVxRrzPBP3-cM4YfhLTIxPJySLb3wkaWD0M5QFnLc7gi81w-KxWBN-OyPV9Q3A-MbZdS2NSj1WQ6cIAzXkaWo023e4_9y51DrNfjuhN4sSTO9zAHvIeniyPfoyhrEWGiDwKdK2Iq4Jm5KmO4slJdvjhqc6DaHijkZTxZxow0s-iprZDkrTdb1dxlGUpq5n_v9fL_NxRV2Uv-FMWkn8nHXiVlshvtgHJpF_lsah61SMHWjrjBfNTbw3jhUb_4ndVXxiO5paFf2nbRqAuXpTuU4EUd9YIKKSiZI2TG6KIIlCR2epq5A3sLji2GOqG9QbBsegw6Jx_Yz1T5SsBOUU9jtPbszBQlV0qogRqYzBCebdpCQRWxsieiMJHBQ2l2W-UgIV4LnIHWdwfH3ym_wp0mQkopeJ1H7wjiKW9iTVG8c8Zm0_MX81NfNWSICZfkfLdk5KQ2ShQHB14Wlk6j_KxdFtCttLa_QvnNHdWBdhgj1xvvDkehBjfCERJpMB6vBXCkheN1TMnbh4NSa9UskgBzWudD9APB3ldJk6uguoQNQDGoeCzBooDsxCUyOGOYIiBTyyFI_Kb2mxq1AODi59yrGUFBmfZcITTgkXQ-hrXDt2X_05hZxuQSr_ctkKNYHqO6A1mU2tJpbKyNVgpFURipGfyYPsEhx_vyDWdymEj2gjwHCKnnDV7XGDaAjN5WJljvZlcgs2eHI3C3hlwQAUdWSRfVneb_1ymCIN3ZqsbiwTFn3ABSenbiyUHWiPW4xoDxu-zm4BgmuC7RgaArmrzTOPERrxNFUg75kFPG_rXNSeCsLzqUdOgfe5TEIC6hYcoughs5BG1um9WajeOrM218httRjZeDkaEUhEXKFaccHeDStm78mMxj_ZK-KEHbBCkfacQ18zXugSQKulPO19v8nGqKWSoUHMZuGpgtDUWRg_oAJDrd4NHlaFJC6-AHMCpG_peTITFaNsmI4zXaW8gL-cXbnIqmfto35_woHFPrQ2TZBGF_ycW3rgTH4B1RokhCvnsnu-WtLK2kcs71A7jZvXgpivVWJ4ojkyzVZc_AdpO6f3QFfFhA=w1920-h937");
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #2d2e32;
@@ -115,6 +115,6 @@ export const Techs = styled.div`
     height: 4rem;
     margin-right: 1rem;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
 `;
