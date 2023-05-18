@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <Container>
+    <Container id="contact">
       <MainContainer>
         <Text>
           <p>Contact</p>

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Container, MainContent, AboutImage, AboutText } from "./aboutStyles";
 
 const About = () => {
+
   return (
-    <Container>
+    <Container id="about">
       <MainContent>
         <AboutImage />
         <AboutText>

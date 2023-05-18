@@ -22,13 +22,16 @@ export const Logo = styled.h3`
 export const Options = styled.div`
   display: flex;
   flex-direction: row;
-`;
+  align-items: center;
 
-export const Option = styled.h4`
+  a{
     margin-left: 10px;
     margin-right: 10px;
     color: #2d2e32;
+    font-weight: 700;
+    text-decoration: none;
     &:hover {
-        color: #f2f2f2;
+        color: #767676;
     }
+  }
 `;

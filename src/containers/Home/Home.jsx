@@ -16,7 +16,7 @@ import { SiJavascript, SiSpring, SiReact, SiAngular, SiHtml5, SiCss3 } from "rea
 
 const Home = () => {
   return (
-    <Container>
+    <Container id="home">
       <Content>
         <Main>
           <MainText>
@@ -43,7 +43,7 @@ const Home = () => {
               </a>
             </Socials>
           </MainText>
-          <MainPic />
+          <MainPic alt="Valentin picture"/>
         </Main>
         <Techs>
           <p>Main Toolset</p>
