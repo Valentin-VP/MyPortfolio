@@ -82,7 +82,6 @@ export const MainPic = styled.div`
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   width: 350px;
   height: 350px;
-  transform: scale(1.1);
 `;
 
 export const Techs = styled.div`
