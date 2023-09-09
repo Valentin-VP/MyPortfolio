@@ -40,6 +40,20 @@ export const Project = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
+  .scrollImage {
+    object-fit: cover;
+    object-position: top;
+
+    &:hover {
+      object-position: bottom;
+      transition: all 5s;
+    }
+    &:not(:hover) {
+      object-position: top;
+      transition: all 1s;
+    }
+  }
+
   .text-container {
     display: flex;
     flex-direction: column;
@@ -96,7 +110,6 @@ export const Project = styled.div`
           }
         }
       }
-
     }
   }
 `;
