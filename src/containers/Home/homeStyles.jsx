@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ppic from "../../assets/images/CVF_2179_compressed.jpg";
 
 export const Container = styled.div`
   height: 100vh;
@@ -75,7 +76,7 @@ export const MainPic = styled.div`
   }
 
   animation: Morph 10s ease-in-out infinite;
-  background-image: url("https://drive.google.com/uc?export=view&id=1tS4YxGJxjPdP0hzVBMKESWaRcdprbs7V");
+  background-image: url(${ppic});
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #2d2e32;
