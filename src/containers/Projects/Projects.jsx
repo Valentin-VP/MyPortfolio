@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Wrapper, Title, Project } from "./ProjectsStyles";
 import { BsGithub } from "react-icons/bs";
 import { HiOutlineExternalLink } from "react-icons/hi";
+import ScrolledPage from "../../assets/images/scrolledPage.png";
 
 const Projects = () => {
   return (
@@ -10,7 +11,7 @@ const Projects = () => {
         <Title>Projects</Title>
         <Project style={{ flexDirection: "row-reverse" }}>
           <img className="scrollImage"
-            src="https://lh3.google.com/u/0/d/1d29bDBYmpm10bNmoV-9enR_hfg6l1x0v=w1920-h923-iv1"
+            src={ScrolledPage}
             alt="screenshot of the app"
           />
           <div className="text-container">
