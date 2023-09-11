@@ -13,6 +13,9 @@ export const Container = styled.div`
   h3{
     font-weight: 700;
   }
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const Logo = styled.h3`
@@ -33,5 +36,8 @@ export const Options = styled.div`
     &:hover {
         color: #767676;
     }
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `;

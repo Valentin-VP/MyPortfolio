@@ -11,9 +11,11 @@ export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 0;
   width: 950px;
+  @media (max-width: 1023px) {
+    width: 90%;
+  }
 `;
 
 export const Text = styled.div`
@@ -31,11 +33,20 @@ export const Text = styled.div`
   span {
     font-size: 1.8rem;
   }
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 `;
 
 export const Contacts = styled.div`
   display: flex;
   flex-direction: row;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const ContactInfo = styled.div`
@@ -43,7 +54,16 @@ export const ContactInfo = styled.div`
   flex-direction: row;
   margin-right: 2rem;
   align-items: center;
-  
+
+  &:hover {
+    cursor: pointer;
+    scale: 0.95;
+
+    p {
+      color: #147efb;
+    }
+  }
+
   div {
     display: flex;
     justify-content: center;
@@ -58,7 +78,7 @@ export const ContactInfo = styled.div`
     height: 4rem;
     margin-right: 1rem;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
 
   h3 {
@@ -67,11 +87,17 @@ export const ContactInfo = styled.div`
     margin: 0;
   }
 
-  a{
+  p {
     color: #767676;
-    text-decoration: none;
-    &:hover {
-      color: #147efb;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 15px;
+
+    span {
+      margin: 0;
     }
   }
 `;

@@ -11,7 +11,14 @@ export const Wrapper = styled.div`
   width: 950px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  @media (max-width: 1023px) {
+    width: 70%;
+  }
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.p`
@@ -26,7 +33,7 @@ export const Project = styled.div`
   flex-direction: row;
   margin-top: 2rem;
   background-color: #f9f9f9;
-  width: 100%;
+  width: calc(100% - 40px);
   height: 400px;
   border-radius: 1.7rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -35,7 +42,7 @@ export const Project = styled.div`
   img {
     object-fit: cover;
     height: 100%;
-    width: 530px;
+    width: 500px;
     border-radius: 1.7rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
@@ -58,10 +65,10 @@ export const Project = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px;
+    width: 350px;
     align-items: center;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     p {
       font-size: 17px;
@@ -85,7 +92,6 @@ export const Project = styled.div`
         font-weight: 600;
         padding: 10px 13px;
         flex-wrap: wrap;
-        white-space: nowrap;
       }
     }
 
@@ -110,6 +116,57 @@ export const Project = styled.div`
           }
         }
       }
+    }
+  }
+
+  @media (max-width: 1023px) {
+    flex-direction: column !important;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+    img {
+      height: 350px;
+    }
+
+    .text-container {
+      width: 90%;
+
+      .stack {
+        p {
+          margin: 0 5px 5px 5px;
+        }
+      }
+
+      .links {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    img {
+      width: 90%;
+      height: 360px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    img {
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 373px) {
+    img {
+      height: 180px;
     }
   }
 `;

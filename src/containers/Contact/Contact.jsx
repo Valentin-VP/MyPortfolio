@@ -10,6 +10,10 @@ import { IoIosMailOpen } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
+  const onSocialClick = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <Container id="contact">
       <MainContainer>
@@ -20,27 +24,32 @@ const Contact = () => {
           </h3>
         </Text>
         <Contacts>
-          <ContactInfo>
+          <ContactInfo
+            onClick={() =>
+              onSocialClick("mailto:vasconcellospvalentin@gmail.com")
+            }
+          >
             <span>
               <IoIosMailOpen color="#147efb" size="2.5rem" />
             </span>
             <div>
               <h3>Mail</h3>
-              <a href="mailto:vasconcellospvalentin@gmail.com">
-                vasconcellospvalentin@gmail.com
-              </a>
+              <p>vasconcellospvalentin@gmail.com</p>
             </div>
           </ContactInfo>
-          <ContactInfo>
+          <ContactInfo
+            onClick={() =>
+              onSocialClick(
+                "https://www.linkedin.com/in/valentin-vasconcellos/"
+              )
+            }
+          >
             <span>
               <FaLinkedin color="#147efb" size="2.5rem" />
             </span>
             <div>
               <h3>LinkedIn</h3>
-              <a
-                href="https://www.linkedin.com/in/valentin-vasconcellos/"
-                target="_blank"
-              >Valentin Vasconcellos</a>
+              <p>Valentin Vasconcellos</p>
             </div>
           </ContactInfo>
         </Contacts>

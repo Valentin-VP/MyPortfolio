@@ -17,7 +17,7 @@ const Projects = () => {
           <div className="text-container">
             <h3>Credilar 🚗</h3>
             <p>
-              A website of an automotive company that offers its selection of
+              A website for an automotive company that offers its selection of
               cars with their respective detailed information to facilitate the
               customer's choice.
             </p>
@@ -44,7 +44,7 @@ const Projects = () => {
             <h3>Foodmonks 🍔</h3>
             <p>
               A Website and mobile app for managing orders at a restaurant.
-              Accept online payments, reservations, user reviews, discounts,
+              Allows online payments, reservations, user reviews, discounts,
               real-time delivery tracking. Simplify operations, enhance customer
               experience.
             </p>
