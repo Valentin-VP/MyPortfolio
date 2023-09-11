@@ -26,6 +26,10 @@ export const Title = styled.p`
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
+  
+  @media (max-width: 1023px) {
+    text-align: center;
+  }
 `;
 
 export const Project = styled.div`
